@@ -1,0 +1,53 @@
+Artifact Name: users
+Process Name: Export
+Start Time: 15:50
+End Time: 15:50
+Elapsed Time: 15:50
+Server Name: demo.us.oracle.com
+Status: completed
+=========================================
+Artifact Name: groups
+Process Name: Export
+Start Time: 15:50
+End Time: 15:50
+Elapsed Time: 15:50
+Server Name: demo.us.oracle.com
+Status: completed
+=========================================
+Application Name: Sample
+Process Name: Export
+Start Time: 15:50
+End Time: 15:50
+Elapsed Time: 15:50
+Status: completed
+=========================================
+Application Name: Sample_R
+Process Name: Export
+Start Time: 15:50
+End Time: 15:51
+Elapsed Time: 15:51
+Status: completed
+=========================================
+Artifact Name: users
+Process Name: Import
+Start Time: 15:51
+End Time: 15:51
+Elapsed Time: 15:51
+Server Name: demo.us.oracle.com
+Status: completed
+=========================================
+Artifact Name: groups
+Process Name: Import
+Start Time: 15:51
+End Time: 15:51
+Elapsed Time: 15:51
+Server Name: demo.us.oracle.com
+Status: completed
+=========================================
+Application Name: Sample
+Process Name: Import
+Start Time: 15:51
+End Time: 15:51
+Elapsed Time: 15:51
+Status: completed
+=========================================

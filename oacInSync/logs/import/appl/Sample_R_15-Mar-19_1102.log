@@ -1,0 +1,25 @@
+
+user "admin" logged in with "Service Administrator" role
+Oracle Analytics Cloud - Essbase version = 12.2.1.1.114, build = 270
+
+
+Uploading file to 'user directory'
+File uploaded successfully
+Uploaded file validated successfully
+'lcmimport' job submitted with job id 139
+Execution is in progress
+....
+
+Warning : Following artifacts are not supported in this version of LCM. Please see Readme.txt located within the exported zip file for steps to export/import unsupported artifacts.
+1. Users
+2. LROs
+3. Disk volume definitions
+4. Catalog entries
+5. Platform jobs
+6. essbase.cfg at server level
+
+Execution completed successfully in 12 seconds.
+
+
+Logout successful
+

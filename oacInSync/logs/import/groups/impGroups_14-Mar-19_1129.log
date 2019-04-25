@@ -1,0 +1,11 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0   346      0   148k --:--:-- --:--:-- --:--:--  148k192   422  105   422    0   346   1971   1616 --:--:-- --:--:-- --:--:--   360
+test_usr_grp,Error,Group [test_usr_grp] already exists.
+test_pwr_grp,Error,Group [test_pwr_grp] already exists.
+test_adm_grp,Error,Group [test_adm_grp] already exists.
+test_grp,Error,Group [test_grp] already exists.
+fltrGrp,Error,Group [fltrGrp] already exists.
+fltrWriteGrp,Error,Group [fltrWriteGrp] already exists.
+scriptGrp,Error,Group [scriptGrp] already exists.
+DemoGrp,Error,Group [DemoGrp] already exists.

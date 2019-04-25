@@ -1,0 +1,6 @@
+un=admin
+pw=U2FsdGVkX1+EndA/RlFlo7JakaQx9eOKPXFY3ISJMwY=
+url=http://celvpvm01199.us.oracle.com:9000/essbase
+AppDir=/home/oracle/oacInSync/files/apps
+ImpSecDir=../files/sec_export
+appNm=(Sample)

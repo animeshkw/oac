@@ -1,0 +1,9 @@
+name,description,role,groups
+test_usr_grp,test_usr_grp,User,
+test_pwr_grp,test_pwr_grp,Power User,
+test_adm_grp,test_adm_grp,Service Administrator,
+test_grp,creating group,Service Administrator,
+fltrGrp,creating group,User,
+fltrWriteGrp,creating group,User,
+scriptGrp,creating group,User,
+DemoGrp,Demo Admin Group,Service Administrator,

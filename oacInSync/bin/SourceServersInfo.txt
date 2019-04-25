@@ -1,0 +1,7 @@
+un=admin
+pw=U2FsdGVkX1+EndA/RlFlo7JakaQx9eOKPXFY3ISJMwY=
+url=http://celvpvm00860.us.oracle.com:9000/essbase
+appKeepBkp=10
+secKeepBkp=10
+logKeepBkp=5
+appNm=(Sample Sample_R)

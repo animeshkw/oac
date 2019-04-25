@@ -1,0 +1,16 @@
+id,name,email,password,role,groups
+epm_default_cloud_admin,,,,Service Administrator,
+essexer,,,,Service Administrator,
+esscs,,,,Service Administrator,
+power1,,,,Power User,
+power2,,,,Power User,
+test1,,,,User,
+test2,,,,User,
+Scen_User1,,,,User,"fltrGrp,fltrWriteGrp"
+Scen_User2,,,,User,"fltrGrp,fltrWriteGrp"
+esscs_fltr_rd,,,,User,scriptGrp
+esscs_fltr_wr,,,,User,scriptGrp
+test_power,,,,Power User,
+test_xadmin,,,,Service Administrator,
+raj,Raj,raj.v.verma@oracle.com,,Service Administrator,DemoGrp
+demo,Demo User,,,User,DemoGrp

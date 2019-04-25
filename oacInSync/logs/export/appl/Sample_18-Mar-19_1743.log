@@ -1,0 +1,214 @@
+
+user "admin" logged in with "Service Administrator" role
+Oracle Analytics Cloud - Essbase version = 12.2.1.1.114, build = 270
+
+
+Initializing rest request for "lcmexport" command with following arguments 
+  application : Sample
+  zipFileName : Sample.zip
+  threadsCount : 10
+  localDirectory : ../../files/apps
+  overwrite : true
+  skipdata : true
+  verbose : true
+
+REST request url : http://celvpvm00860.us.oracle.com:9000/essbase/rest/v1/jobs
+Posting data {"application":"Sample","jobtype":"lcmexport","parameters":{"zipFileName":"Sample.zip","threads":"10","localDirectory":"../../files/apps","overwrite":"true","skipdata":"true","verbose":"true"}}
+
+'lcmexport' job submitted with job id 239
+Execution is in progress
+....
+
+Warning : Following artifacts are not supported in this version of LCM. Please see Readme.txt located within the exported zip file for steps to export/import unsupported artifacts.
+1. Users
+2. LROs
+3. Disk volume definitions
+4. Catalog entries
+5. Platform jobs
+6. essbase.cfg at server level
+
+The configured temporary directory is [/scratch/oracle/12esscs/data/tmp]. The directory for export/import operations is [/scratch/oracle/12esscs/data/tmp/tyipw7ru]
+Exporting application [Sample]
+Exporting /Sample/Application Level Cfg/Sample.cfg...Success
+Exporting /Sample/Substitution Variables/global...Success
+Exporting /Sample/Substitution Variables/Current_month...Success
+Exporting /Sample/Custom Defined Functions/@COVARIANCE...Success
+Exporting /Sample/Custom Defined Macros/@MACTMP...Success
+Exporting /Sample/Provisions/Roles.csv...Success
+Exporting /Sample/Provisions/CalcAssociation.csv...Success
+Exporting /Sample/Datasources/connections.xml_and_datasources.xml ...Success
+Exporting /Sample/MetaInfo/Metainfo...Success
+Skipping cube data
+Exporting /Sample/Databases/Basic/Database Properties...Success
+Exporting /Sample/Databases/Basic/Provisions/CalcAssociation.csv...Success
+Exporting /Sample/Databases/Basic/ScenarioManagement/Scenarios...Success
+Exporting /Sample/Databases/Basic/Audit/DataAudit.csv...Success
+Exporting /Sample/Databases/Basic/Audit/MetaDataAudit.csv...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Year.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Intro_Date.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Scenario.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Measures.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Product.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Market.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Caffeinated.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Population.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Pkg_Type.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Data.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Ounces.rul...Success
+Exporting /Sample/Databases/Basic/Calc scripts/Accts.csc...Success
+Exporting /Sample/Databases/Basic/Calc scripts/CalcAll.csc...Success
+Exporting /Sample/Databases/Basic/Calc scripts/Default Calc...Success
+Exporting /Sample/Databases/Basic/Report scripts/crtVar.rep...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Intro_Date.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Ounces.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Measures.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Caffeinated.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Year.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Scenario.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Market.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Data_Basic.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Pkg_Type.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Product.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Population.txt...Success
+Exporting /Sample/Databases/Basic/Xml files/MCDSSamp.xml...Success
+Exporting /Sample/Databases/Basic/Xml files/CDSSampl.xml...Success
+Exporting /Sample/Databases/Basic/Open XML Excel files/Basic.xlsx...Success
+Exporting /Sample/Databases/Basic/Drill-through definitions/EsbDTR.dtr...Success
+Exporting /Sample/Databases/Basic/Drill-through definitions/URLDT.dtr...Success
+Exporting /Sample/Databases/Basic/MAXL Files/dispApp.msh...Success
+Exporting /Sample/Databases/Basic/MDX Files/mdxScr.mdx...Success
+Exporting /Sample/Databases/Basic/Basic outline...Success
+Exporting /Sample/Databases/Basic/Substitution Variables/dbvar...Success
+Exporting /Sample/Databases/Basic/Location Aliases/EasternDB...Success
+Exporting /Sample/Databases/Basic/Security/filt2...Success
+Exporting /Sample/Databases/Basic/Security/filt1...Success
+Exporting /Sample/Databases/Basic/Drill-through definitions/EsbDTR...Success
+Exporting /Sample/Databases/Basic/Drill-through definitions/URLDT...Success
+Adding directory [Sample] to [/scratch/oracle/12esscs/data/catalog/users/admin/Sample.zip]
+Added file [README.txt] to the exported zip successfully
+Export Complete: Application [Sample] exported to [/scratch/oracle/12esscs/data/catalog/users/admin/Sample.zip]
+
+Execution completed successfully in 12 seconds.
+Downloading LCM exported zip file ...
+Initializing rest request for "download" command with following arguments 
+  fileName : Sample.zip
+  localDirectory : ../../files/apps
+  overwrite : true
+  verbose : true
+
+REST request url : http://celvpvm00860.us.oracle.com:9000/essbase/rest/v1/files/users/admin/Sample.zip
+
+Successfully downloaded to /home/oracle/oacInSync/utils/cli/../../files/apps/Sample.zip
+Deleting LCM exported zip file on Essbase cloud instance ...
+File '/users/admin/Sample.zip' deleted successfully
+
+
+Logout successful
+
+
+user "admin" logged in with "Service Administrator" role
+Oracle Analytics Cloud - Essbase version = 12.2.1.1.114, build = 270
+
+
+Initializing rest request for "lcmexport" command with following arguments 
+  application : Sample
+  zipFileName : Sample.zip
+  threadsCount : 10
+  localDirectory : ../../files/apps
+  overwrite : true
+  skipdata : true
+  verbose : true
+
+REST request url : http://celvpvm00860.us.oracle.com:9000/essbase/rest/v1/jobs
+Posting data {"application":"Sample","jobtype":"lcmexport","parameters":{"zipFileName":"Sample.zip","threads":"10","localDirectory":"../../files/apps","overwrite":"true","skipdata":"true","verbose":"true"}}
+
+'lcmexport' job submitted with job id 240
+Execution is in progress
+....
+
+Warning : Following artifacts are not supported in this version of LCM. Please see Readme.txt located within the exported zip file for steps to export/import unsupported artifacts.
+1. Users
+2. LROs
+3. Disk volume definitions
+4. Catalog entries
+5. Platform jobs
+6. essbase.cfg at server level
+
+The configured temporary directory is [/scratch/oracle/12esscs/data/tmp]. The directory for export/import operations is [/scratch/oracle/12esscs/data/tmp/ulva0eq1]
+Exporting application [Sample]
+Exporting /Sample/Application Level Cfg/Sample.cfg...Success
+Exporting /Sample/Substitution Variables/global...Success
+Exporting /Sample/Substitution Variables/Current_month...Success
+Exporting /Sample/Custom Defined Functions/@COVARIANCE...Success
+Exporting /Sample/Custom Defined Macros/@MACTMP...Success
+Exporting /Sample/Provisions/Roles.csv...Success
+Exporting /Sample/Provisions/CalcAssociation.csv...Success
+Exporting /Sample/Datasources/connections.xml_and_datasources.xml ...Success
+Exporting /Sample/MetaInfo/Metainfo...Success
+Skipping cube data
+Exporting /Sample/Databases/Basic/Database Properties...Success
+Exporting /Sample/Databases/Basic/Provisions/CalcAssociation.csv...Success
+Exporting /Sample/Databases/Basic/ScenarioManagement/Scenarios...Success
+Exporting /Sample/Databases/Basic/Audit/DataAudit.csv...Success
+Exporting /Sample/Databases/Basic/Audit/MetaDataAudit.csv...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Year.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Intro_Date.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Scenario.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Measures.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Product.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Market.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Caffeinated.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Population.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Pkg_Type.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Data.rul...Success
+Exporting /Sample/Databases/Basic/Rule files/Dim_Ounces.rul...Success
+Exporting /Sample/Databases/Basic/Calc scripts/Accts.csc...Success
+Exporting /Sample/Databases/Basic/Calc scripts/CalcAll.csc...Success
+Exporting /Sample/Databases/Basic/Calc scripts/Default Calc...Success
+Exporting /Sample/Databases/Basic/Report scripts/crtVar.rep...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Intro_Date.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Ounces.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Measures.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Caffeinated.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Year.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Scenario.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Market.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Data_Basic.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Pkg_Type.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Product.txt...Success
+Exporting /Sample/Databases/Basic/Text files/Dim_Population.txt...Success
+Exporting /Sample/Databases/Basic/Xml files/MCDSSamp.xml...Success
+Exporting /Sample/Databases/Basic/Xml files/CDSSampl.xml...Success
+Exporting /Sample/Databases/Basic/Open XML Excel files/Basic.xlsx...Success
+Exporting /Sample/Databases/Basic/Drill-through definitions/EsbDTR.dtr...Success
+Exporting /Sample/Databases/Basic/Drill-through definitions/URLDT.dtr...Success
+Exporting /Sample/Databases/Basic/MAXL Files/dispApp.msh...Success
+Exporting /Sample/Databases/Basic/MDX Files/mdxScr.mdx...Success
+Exporting /Sample/Databases/Basic/Basic outline...Success
+Exporting /Sample/Databases/Basic/Substitution Variables/dbvar...Success
+Exporting /Sample/Databases/Basic/Location Aliases/EasternDB...Success
+Exporting /Sample/Databases/Basic/Security/filt2...Success
+Exporting /Sample/Databases/Basic/Security/filt1...Success
+Exporting /Sample/Databases/Basic/Drill-through definitions/EsbDTR...Success
+Exporting /Sample/Databases/Basic/Drill-through definitions/URLDT...Success
+Adding directory [Sample] to [/scratch/oracle/12esscs/data/catalog/users/admin/Sample.zip]
+Added file [README.txt] to the exported zip successfully
+Export Complete: Application [Sample] exported to [/scratch/oracle/12esscs/data/catalog/users/admin/Sample.zip]
+
+Execution completed successfully in 12 seconds.
+Downloading LCM exported zip file ...
+Initializing rest request for "download" command with following arguments 
+  fileName : Sample.zip
+  localDirectory : ../../files/apps
+  overwrite : true
+  verbose : true
+
+REST request url : http://celvpvm00860.us.oracle.com:9000/essbase/rest/v1/files/users/admin/Sample.zip
+
+Successfully downloaded to /home/oracle/oacInSync/utils/cli/../../files/apps/Sample.zip
+Deleting LCM exported zip file on Essbase cloud instance ...
+File '/users/admin/Sample.zip' deleted successfully
+
+
+Logout successful
+
